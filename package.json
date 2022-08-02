@@ -1,5 +1,5 @@
 {
-  "name": "SongSings",
+  "name": "vitepress-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "deploy": "bash deploy.sh",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
+    "docs:serve": "vitepress serve docs --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
