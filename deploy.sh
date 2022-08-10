@@ -1,16 +1,26 @@
 #!/usr/bin/env sh
 
+# 忽略错误
 set -e
 
-npm run docs:build
+# 构建
+pnpm run docs:build
 
+# 进入待发布的目录
 cd docs/.vitepress/dist
 
-msg="init commit"
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
+
 #git init
-#git add -A
-#git commit -m "${msg}"
-git push -f https://gitee.com/luckyson/docs.git master:dev
+git add -A
+git commit -m 'deploy'
+
+# 如果部署到 https://.github.io
+git push -f git@github.com:/songsings.github.io.git master
+
+# 如果是部署到 https://.github.io/
+# git push -f git@github.com:/.git master:gh-pages
 
 cd -
 rm -rf docs/.vitepress/dist
