@@ -1,8 +1,0 @@
-import{_ as s,c as a,o as n,d as t}from"./app.b06866fb.js";const y=JSON.parse('{"title":"this test","description":"","frontmatter":{},"headers":[{"level":2,"title":"this test","slug":"this-test"}],"relativePath":"test.md"}'),e={name:"test.md"},l=t(`<div class="language-rust"><button class="copy"></button><span class="lang">rust</span><pre><code><span class="line"><span style="color:#676E95;"> // \u8FD9\u662F\u4E3B\u51FD\u6570</span></span>
-<span class="line"><span style="color:#F78C6C;">fn</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">main</span><span style="color:#89DDFF;">()</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{</span></span>
-<span class="line"><span style="color:#676E95;">    // \u8C03\u7528\u7F16\u8BD1\u751F\u6210\u7684\u53EF\u6267\u884C\u6587\u4EF6\u65F6\uFF0C\u8FD9\u91CC\u7684\u8BED\u53E5\u5C06\u88AB\u8FD0\u884C\u3002</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#676E95;">    // \u5C06\u6587\u672C\u6253\u5370\u5230\u63A7\u5236\u53F0</span></span>
-<span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#82AAFF;">println!</span><span style="color:#89DDFF;">(</span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">Hello World!222</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">);</span></span>
-<span class="line"><span style="color:#89DDFF;">}</span></span>
-<span class="line"></span></code></pre></div><h2 id="this-test" tabindex="-1">this test <a class="header-anchor" href="#this-test" aria-hidden="true">#</a></h2>`,2),p=[l];function o(c,r,i,_,d,D){return n(),a("div",null,p)}const h=s(e,[["render",o]]);export{y as __pageData,h as default};
