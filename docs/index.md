@@ -6,15 +6,15 @@ hero:
   text: Vite & Vue powered static site generator.
   tagline: Lorem ipsum...
   image:
-    src: /logo.jpg
+    src: /images/title.jpeg
     alt: VitePress
   actions:
     - theme: brand
       text: Get Started
-      link: /test
+      link: /getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/SongSings/songsings.github.io
 
 features:
   - icon: ⚡️

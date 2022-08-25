@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
+    "docs:dev1": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },

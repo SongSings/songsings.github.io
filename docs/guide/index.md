@@ -1,6 +1,3 @@
-### this one
-
-### this two
 
 ::: info
 This is an info box.
