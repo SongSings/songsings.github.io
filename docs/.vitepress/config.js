@@ -5,8 +5,18 @@ export default {
     // 示例：如果您使用 Github（或 GitLab）页面并部署到user.github.io/repo/，则将您的设置base为/repo/.
     base: '/',
 
-    title: 'doc', // 所有文档的浏览器标签title
+    title: 'John', // 所有文档的浏览器标签title
     description: 'John的网站  ', // 会渲染成<meta>标签，SEO用
+
+    head: [
+        ['link', { rel: 'icon', type: 'image/ico', href: '/favicon.ico' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:title', content: 'John' }],
+        ['meta', { property: 'og:image', content: '/favicon.ico' }],
+        ['meta', { property: 'og:url', content: 'https://github.com/songsings' }],
+        ['meta', { property: 'og:description', content: '平安喜乐' }],
+        ['meta', { name: 'theme-color', content: '#646cff' }]
+    ],
 
     // 编辑时间
     lastUpdated: true,
