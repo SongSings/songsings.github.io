@@ -1,0 +1,1 @@
+import{_ as s,c as t,o as i,d as a}from"./app.dab798ff.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/index.md","lastUpdated":1661912989000}'),c={name:"guide/index.md"},e=a("",5),o=[e];function l(d,n,p,_,r,m){return i(),t("div",null,o)}const T=s(c,[["render",l]]);export{k as __pageData,T as default};

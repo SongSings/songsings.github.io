@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as e}from"./app.dab798ff.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"getting-started.md","lastUpdated":1661912989000}'),l={name:"getting-started.md"},p=e("",1),t=[p];function o(r,c,i,_,d,u){return a(),n("div",null,t)}const F=s(l,[["render",o]]);export{m as __pageData,F as default};
