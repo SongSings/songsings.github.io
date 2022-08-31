@@ -28,7 +28,7 @@ export default {
 
     themeConfig: {
 
-        siteTitle: '🐳John的网站  ',
+        siteTitle: '🐳  John  ',
         // logo: '/images/title.jpeg',
 
         // 导航链接
@@ -57,7 +57,7 @@ export default {
         localeLinks: {
             text: 'English',
             items: [
-                { text: '简体中文', link: 'https://github.com/songsings' },
+                {text: '简体中文', link: 'https://songsings.github.io'},
             ]
         },
 
@@ -80,10 +80,10 @@ function nav() {
         { text: 'Guide', link: '/guide', activeMatch: '/guide/'},
         { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
         {
-            text: 'Dropdown Menu',
+            text: '收藏',
             items: [
-                { text: 'Item A', link: '/example/item1' },
-                { text: 'Item B', link: '/example/item2' }
+                {text: '网站', link: '/example/website'},
+                {text: '其它', link: '/example/item2'}
             ]
         },
         {
